@@ -33,7 +33,7 @@ public class ATM {
       String operation  ="1.Balance Show\n" +
                        "2. Invest money\n" +
                        "3.Withdraw money\n" +
-                        "4.Quit(q)";
+                        "Quit(q)";
        System.out.println("*********************");
        System.out.println(operation);
        while(true){
@@ -56,7 +56,7 @@ public class ATM {
                account.moneyWithdraw(money);
            
        }
-           else if(select.equals("4")){
+           else if(select.equals("q")){
                System.out.println("Program was terminated!");
                break;
            }
