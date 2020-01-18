@@ -45,7 +45,7 @@ public class Passenger implements GoRules{
     public boolean abroadFee() {
         
         if(this.feeControl<100){
-            System.out.println("Please pay completely abroad fee!You did not pay fee.");
+            System.out.println("Please pay completely  fee!You did not pay fee.");
             return false;
         }
         else{
